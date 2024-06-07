@@ -1,0 +1,66 @@
+.movie-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    flex-grow: 1;
+    width: auto;
+    height: 250px;
+}
+
+.image-container img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.movie-details-container {
+    flex-grow: 4;
+    font-size: 1rem;
+}
+
+.movie-details-container h1 {
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+.rating-box {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.rating-box .rate-btn {
+    background-color: white;
+    outline: none;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.rating-inner-container p {
+    font-size: 1rem;
+}
+
+.screen-details {
+    background-color: rgb(216, 216, 216);
+    width: fit-content;
+    height: 30px;
+    margin-top: 20px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
